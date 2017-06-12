@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filme - AskCine</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="your-path/flat/red.css" rel="stylesheet">
+    <script src="your-path/icheck.js"></script>
+    </head>
+
+<body>
+    <!-- //MENU -->
+    <!-- //MENU --><a id="home"></a>
+    <div class="row ">
+        <header>
+            <nav class="nav-collapse">
+                <ul>
+                    <li class="menu-item active"><a href="index.html" data-scroll>Home</a></li>
+                    <li class="menu-item"><a href="busca.html" data-scroll>Busca</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- //FIM DO MENU -->
+    <!-- //HEADER -->
+    <div class="row align-center container">
+        <div class="small-12 small-centered text-center columns"><h1 class="invisible">AskCine</h1><img src="img/blank.png" alt="logo"></div>
+    </div>
+    <!-- //FIM DO HEADER -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="media-object small-12 medium-12 large-6 columns">
+            <div class="media-object-section">
+                <div class="thumbnail"> <img src="img/posters/poster1.jpg" alt="Poster dr Estranho"> </div>
+            </div>
+            <div class="media-object-section">
+                <h3>Doutor Estranho (2016)</h3>
+                <b>Diretor:</b><p> Scott Derrickson</p>
+                <b>Escritores:</b><p>  Jon Spaihts, Scott Derrickson</p>
+                <b>Atores:</b><p> Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams</p>
+            </div>
+        </div>
+        <div class="small-12 medium-12 large-6 columns">
+            <h4>Trailer do filme:</h4>
+            <div class="flex-video widescreen">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/YUfWrIcX4zw" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        
+        <div class="row">
+         <div class="small-12 medium-12 large-12 text-center columns">
+             <br><br>
+         <h4>Sessões Disponiveis</h4>
+            <a> <img src="img/cinemas/roxy.png" alt="Cineroxy" onclick="Mudarestado('esconder')"></a>
+             
+             <div class="row">
+             <div class="small-12 medium-12 columns">
+                 <div class="box" id="esconder">
+                <h5>2D (Legendado)</h5>
+                 <p>13:20 - 16:00</p>
+                 <p>16:20 - 19:00</p>
+                 <p>19:20 - 21:00</p>
+                     <br>
+                <h5>3D (Dublado)</h5>
+                 <p>13:20 - 16:00</p>
+                 <p>16:20 - 19:00</p>
+                 <p>19:20 - 21:00</p>
+                 </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+     <footer>
+        <div class="row">
+            <div class="small-12 medium-6 large-6 columns">
+                <br>
+                <h5>Projeto AskCine, elaborado por:</h5>
+                <br>
+                <p>Almir Baptista</p>
+                <p>Lucas Figueiredo</p>
+                <p>Luiz Fernando</p>
+                <p>Rafael Cavalcante</p>
+                <br>
+                <br> </div>
+            <div class="small-12 medium-6 large-6 columns">
+                <br>
+                <form>
+                    <h5 class="text-center ">Pesquise seu Filme</h5>
+                    <br>
+                    <div class="small-11 small-centered columns">
+                        <div class="input-group"> <span class="input-group-label show-for-large-only">Titulo do Filme</span>
+                            <input type="text" class="input-group-field" name="titulo-filme">
+                            <div class="small-1  small-centered input-group-button columns">
+                                <input type="submit" class="button" id="bt-footer" value="Pesquisar"> </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="fim">
+            <div class="text-center">
+                <p>AskCine - 2016</p>
+            </div>
+        </div>
+    </footer>
+       <!-- //SCRIPTS -->
+    <script src="../../assets/js/vendor/jquery.min.js"></script>
+    <script src="../../assets/js/vendor/what-input.js"></script>
+    <script src="../../assets/js/vendor/foundation.min.js"></script>
+    <script src="../../assets/js/responsive-nav.js"></script>
+    <script src="../../assets/js/fastclick.js"></script>
+    <script src="../../assets/js/scroll.js"></script>
+    <script src="../../assets/js/fixed-responsive-nav.js"></script>
+    <script src="../../assets/js/funcao.js"></script>
+    <script src="../../assets/js/fonte.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
